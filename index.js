@@ -6,9 +6,10 @@ let win
 function createWindow () {
   // Cria uma janela de navegação.
   win = new BrowserWindow({
-    width: 800,
+    width: 700,
     height: 600,
     titleBarStyle: 'hidden',
+    autoHideMenuBar: true,
     //frame: false,
     alwaysOnTop: true,
     webPreferences: {
